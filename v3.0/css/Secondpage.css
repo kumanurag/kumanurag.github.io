@@ -46,7 +46,7 @@ body{
 	/*box-shadow: 0px 4px 23px #000000;*/
 	overflow: visible;
 	background-color: red;
-	background: url('page2_35.jpg') no-repeat;
+	background: url('/../images/Page 2/page2_35.jpg') no-repeat;
 	background-size: 70%;
 	opacity: 0.1;
 	right: 60px;
@@ -212,7 +212,7 @@ body{
 	float: left;
 	margin-top: 18px;
 	height: 145px;
-	background: url('personal/img1.jpg') no-repeat;
+	background: url('/../images/Page 2/personal/img1.jpg') no-repeat;
 	background-size: 100%;
 }
 
@@ -224,7 +224,7 @@ body{
 	float: left;
 	margin-top: 18px;
 	height: 145px;
-	background: url('personal/img2.jpg') no-repeat;
+	background: url('/../images/Page 2/personal/img2.jpg') no-repeat;
 	background-size: 100%;
 }
 
@@ -236,7 +236,7 @@ body{
 	float: left;
 	margin-top: 18px;
 	height: 145px;
-	background: url('personal/img3.jpg') no-repeat;
+	background: url('/../images/Page 2/personal/img3.jpg') no-repeat;
 	background-size: 100%;
 }
 
@@ -248,7 +248,7 @@ body{
 	float: left;
 	margin-top: 18px;
 	height: 145px;
-	background: url('personal/img4.jpg') no-repeat;
+	background: url('/../images/Page 2/personal/img4.jpg') no-repeat;
 	background-size: 100%;
 }
 
@@ -260,7 +260,7 @@ body{
 	float: left;
 	margin-top: 18px;
 	height: 145px;
-	background: url('personal/img5.jpg') no-repeat;
+	background: url('/../images/Page 2/personal/img5.jpg') no-repeat;
 	background-size: 100%;
 }
 
@@ -272,7 +272,7 @@ body{
 	float: left;
 	margin-top: 18px;
 	height: 145px;
-	background: url('personal/img6.jpg') no-repeat;
+	background: url('/../images/Page 2/personal/img6.jpg') no-repeat;
 	background-size: 100%;
 }
 
@@ -404,7 +404,7 @@ input#img-7:checked ~ .nav-dots label#img-dot-7  {
 }
 
 /*#more_images:hover{
-	background: url('page2_16.png') no-repeat;
+	background: url('/../images/Page 2/page2_16.png') no-repeat;
 	cursor: pointer; cursor: hand;
 }*/
 #page2_div2{																				/*Divison testing for work*/
@@ -622,7 +622,7 @@ position: relative;
 	float: right;
 	background-color: red;
 	margin-top: 25px;
-	background: url('page2_28.jpg') no-repeat;
+	background: url('/../images/Page 2/page2_28.jpg') no-repeat;
 	background-size: 100%;
 
 }
@@ -635,7 +635,7 @@ position: relative;
 	float: right;
 	background-color: red;
 	margin-top: 25px;
-	background: url('page2_29.jpg') no-repeat;
+	background: url('/../images/Page 2/page2_29.jpg') no-repeat;
 	background-size: 100%;
 	overflow: visible;
 
@@ -649,7 +649,7 @@ position: relative;
 	float: right;
 	background-color: red;
 	margin-top: 25px;
-	background: url('page2_30.jpg') no-repeat;
+	background: url('/../images/Page 2/page2_30.jpg') no-repeat;
 	background-size: 100%;
 
 }
@@ -662,7 +662,7 @@ position: relative;
 	float: right;
 	background-color: red;
 	margin-top: 25px;
-	background: url('page2_32.jpg') no-repeat;
+	background: url('/../images/Page 2/page2_32.jpg') no-repeat;
 	background-size: 100%;
 
 }
@@ -675,7 +675,7 @@ position: relative;
 	float: right;
 	background-color: red;
 	margin-top: 25px;
-	background: url('page2_31.jpg') no-repeat;
+	background: url('/../images/Page 2/page2_31.jpg') no-repeat;
 	background-size: 100%;
 
 }
@@ -729,7 +729,7 @@ position: relative;
 	/*border: 1px solid #000000;*/
 	float: left;
 	position: relative;
-	background: url('page2_15.png');
+	background: url('/../images/Page 2/page2_15.png');
 }
 .div_button2_page2{
 	display: block;
@@ -744,7 +744,7 @@ position: relative;
 	left: 30px;
 	float: left;
 	position: relative;
-	background: url('page2_14.png') no-repeat;
+	background: url('/../images/Page 2/page2_14.png') no-repeat;
 	/*background-size: 100%;*/
 	/*background-color: #6c350e;*/
 }
@@ -779,7 +779,7 @@ position: relative;
 }
 
 .div_button1_page2:hover{
-	background: url('page2_16.png') no-repeat;
+	background: url('/../images/Page 2/page2_16.png') no-repeat;
 	/*background-size: 100%;*/
 	cursor: pointer; cursor: hand;
 	/*color: white;
@@ -789,7 +789,7 @@ position: relative;
 }
 
 .div_button2_page2:hover{
-	background: url('page2_17.png') no-repeat;
+	background: url('/../images/Page 2/page2_17.png') no-repeat;
 	/*background-size: 100%;*/
 	cursor: pointer; cursor: hand;
 	/*color: white;
@@ -901,7 +901,7 @@ position: relative;
 	z-index: 10;
 	margin-left: auto;
 	margin-right: auto;
-	background: url('opy.png') no-repeat;
+	background: url('/../images/email copy.png') no-repeat;
 	/*margin-bottom: 20px;*/
 	background-size: 80%;
 }
@@ -915,7 +915,7 @@ position: relative;
 	z-index: 10;
 	margin-left: auto;
 	margin-right: auto;
-	background: url('page2_34.jpg') no-repeat;
+	background: url('/../images/Page 2/page2_34.jpg') no-repeat;
 	background-size: 90%;
 }
 
@@ -950,7 +950,7 @@ position: relative;
 }
 
 .facebook {
-    background: url('page2_21.png');
+    background: url('/../images/Page 2/page2_21.png');
     width:80px;
     /*position: relative;*/
     height:80px;
@@ -966,12 +966,12 @@ position: relative;
 
 .facebook:hover{
 	cursor: pointer; cursor: hand;
-	background: url('page2_23.png') no-repeat;
+	background: url('/../images/Page 2/page2_23.png') no-repeat;
 	background-size: 
 }
 
 .gplus {
-    background: url('page2_26.png');
+    background: url('/../images/Page 2/page2_26.png');
     width:80px;
     /*position: relative;*/
     height:80px;
@@ -987,11 +987,11 @@ position: relative;
 
 .gplus:hover{
 	cursor: pointer; cursor: hand;
-	background: url('page2_27.png');
+	background: url('/../images/Page 2/page2_27.png');
 }
 
 .twitter {
-    background: url('page2_24.png');
+    background: url('/../images/Page 2/page2_24.png');
     width:80px;
     /*position: relative;*/
     height:80px;
@@ -1007,7 +1007,7 @@ position: relative;
 
 .twitter:hover{
 	cursor: pointer; cursor: hand;
-	background: url('page2_25.png') no-repeat;
+	background: url('/../images/Page 2/page2_25.png') no-repeat;
 	background-size: 100%;
 }
 .footer{
