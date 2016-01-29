@@ -839,7 +839,7 @@ position: relative;
 	background: url('../images/Page 2/page2_27.png');
 }
 
-.twitter {
+.linkedin {
     background: url('../images/Page 2/page2_24.png');
     width:80px;
     height:80px;
@@ -847,7 +847,7 @@ position: relative;
     float: left;
 }
 
-.twitter:hover{
+.linkedin:hover{
 	cursor: pointer; cursor: hand;
 	background: url('../images/Page 2/page2_25.png') no-repeat;
 	background-size: 100%;
