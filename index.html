@@ -19,9 +19,15 @@
     	 $('#up').click(function(){
    $('html, body').animate({scrollTop:0}, 'slow');
  });
+    	 $(window).load(function(){
+   
+   $('#loading').fadeOut();
+});
     </script>
 
  <body>
+ 	<div id='loading'>
+ 		Now loading</div>
  	<div id='#top'></div>
  	<div id='navigation_menu'>
  		<a href="#page2_div1">
