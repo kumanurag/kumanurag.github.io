@@ -143,14 +143,14 @@ body{
 	height:60%;
 	z-index: 2;
 	top:23%;
-	left:16%;
+	left:15%;
 	position: absolute;
 }
 
 .text_page1{
 	font-family: 'PT Sabs' sans-serif;
 	font-weight: 500;
-	font-size:  24px;
+	font-size:  150%;
 	margin-top:0;
 	color: #cccccc;
 	text-align: center;
