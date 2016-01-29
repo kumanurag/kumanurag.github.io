@@ -512,7 +512,6 @@ position: relative;
 	background-color: white;
 	border: 1px solid #b7b7b8;
 	margin-left: 10%;
-	/*display: block;*/
 	float: left;
 	display: none;
 	margin-top: 10px;
@@ -525,7 +524,6 @@ position: relative;
 	background-color: white;
 	border: 1px solid #b7b7b8;
 	margin-left: 10%;
-	/*display: block;*/
 	float: left;
 	display: none;
 	margin-top: 10px;
@@ -540,7 +538,6 @@ position: relative;
 	display: block;
 	float: left;
 	margin-left: 20px;
-	/*background-color: red;*/
 }
 
 .page2_divtest_work5_details_divimage1{
@@ -550,7 +547,6 @@ position: relative;
 	display: block;
 	height: 220px;
 	float: right;
-	background-color: red;
 	margin-top: 25px;
 	background: url('../images/Page 2/page2_28.jpg') no-repeat;
 	background-size: 100%;
@@ -563,7 +559,6 @@ position: relative;
 	display: block;
 	height: 220px;
 	float: right;
-	background-color: red;
 	margin-top: 25px;
 	background: url('../images/Page 2/page2_29.jpg') no-repeat;
 	background-size: 100%;
@@ -577,7 +572,6 @@ position: relative;
 	display: block;
 	height: 220px;
 	float: right;
-	background-color: red;
 	margin-top: 25px;
 	background: url('../images/Page 2/page2_30.jpg') no-repeat;
 	background-size: 100%;
@@ -590,7 +584,6 @@ position: relative;
 	display: block;
 	height: 220px;
 	float: right;
-	background-color: red;
 	margin-top: 25px;
 	background: url('../images/Page 2/page2_32.jpg') no-repeat;
 	background-size: 100%;
@@ -603,7 +596,6 @@ position: relative;
 	display: block;
 	height: 220px;
 	float: right;
-	background-color: red;
 	margin-top: 25px;
 	background: url('../images/Page 2/page2_31.jpg') no-repeat;
 	background-size: 100%;
@@ -633,30 +625,19 @@ position: relative;
 .button_div{
 	width: 150px;
 	display: block;
-	/*margin-top: 200px;*/
 	height: 50px;
 	min-width: 150px;
-	/*margin-bottom: 100px;*/
 	position: relative;
-	/*background-color: blue;*/
-	/*z-index: 30;*/
-	/*position: absolute;*/
 	margin-left: 85%;
-	/*margin-top: 100px;*/
 	top: -30px;
-	/*float: right;*/
 }
 
 .div_button1_page2{
-	/*background-color: #6c350e;*/
 	display: block;
 	width: 50px;
 	height:50px;
 	min-height: 40px;
 	min-width: 40px;
-	/*margin-left:40px;*/
-	/*margin-top: 0px;*/
-	/*border: 1px solid #000000;*/
 	float: left;
 	position: relative;
 	background: url('../images/Page 2/page2_15.png');
@@ -666,23 +647,16 @@ position: relative;
 	width: 50px;
 	height:50px;
 	min-width: 50px;
-	/*height:100%;*/
-	/*margin-top: 0px;*/
 	min-height: 40px;
-	/*border: 1px solid #000000;*/
-	/*margin-left:20px;*/
 	left: 30px;
 	float: left;
 	position: relative;
 	background: url('../images/Page 2/page2_14.png') no-repeat;
-	/*background-size: 100%;*/
-	/*background-color: #6c350e;*/
 }
 
 .div_button_page2_text{
 	width: 70%;
 	height:60%;
-	/*z-index: 1;*/
 	left:16%;
 	margin-top:11.5px;
 	position: relative;
@@ -691,41 +665,27 @@ position: relative;
 	font-size: 23px; 
 	text-align: center;
 	color: #000000;
-	/*color: white;*/
 }
 .div_button_page2_text1{
 	width: 70%;
 	height:60%;
-	/*z-index: 1;*/
 	left:15%;
 	margin-top:11.5px;
 	position: relative;
-	/*text-align: center;*/
 	font-family: 'PT Sans' sans-serif;
 	font-weight: 100;
 	font-size: 23px; 
 	color: #000000;
-	/*color: white;*/
 }
 
 .div_button1_page2:hover{
 	background: url('../images/Page 2/page2_16.png') no-repeat;
-	/*background-size: 100%;*/
 	cursor: pointer; cursor: hand;
-	/*color: white;
-	background-color: #000000;
-	/*opacity: 0.9;*/
-	/*border: 1px solid #eb0a0a;*/
 }
 
 .div_button2_page2:hover{
 	background: url('../images/Page 2/page2_17.png') no-repeat;
-	/*background-size: 100%;*/
 	cursor: pointer; cursor: hand;
-	/*color: white;
-	background-color: #000000;
-	/*opacity: 0.9;*/
-	/*border: 1px solid #eb0a0a;*/
 }
 .div_button1_page2:hover p{
 	color: #f3eeee;
@@ -741,16 +701,12 @@ position: relative;
 
 
 #page2_div3{
-    /*margin-top:0px;*/
-    /*padding:0px;*/
     width:100%;
     height:auto;
     display: block;
     overflow:hidden;
     text-align:center;
     position: relative;
-    /*min-width: 1000px;*/
-    /*background-color: black;*/
     
 }
 
@@ -758,12 +714,8 @@ position: relative;
 	position: relative;																		
 	width: 70%;
 	height: 700px;
-	/*margin-top: 100px;*/
-	/*position: relative;*/
 	margin-left: 15%;
 	top: 10px;
-	/*background-color: red;*/
-	/*z-index: 1;*/
 	display: block;
 }
 
@@ -772,11 +724,8 @@ position: relative;
 	width: 30%;
 	top: 60px;
 	height: 50px;
-	/*margin-top: 100px;*/
 	position: relative;
 	margin-left: 35%;
-	/*top: 0px;*/
-	/*background-color: blue;*/
 	z-index: 1;
 }
 
@@ -786,13 +735,11 @@ position: relative;
 	margin-left: 25%;
 	height: 500px;
 	top: 140px;
-	/*background-color:green;*/
 	display: block;
 }
 
 .page2_div3_mail{
 	text-align:center;
-	/*background-color:white;*/
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -802,46 +749,35 @@ position: relative;
 
 .page2_div3_phone{
 	text-align:center;
-	/*background-color:white;*/
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	height: 150px;
 	margin-top:10px; 
-	/*background-color:pink;*/
 }
 
 .page2_div3_social{
 	text-align:center;
-	/*background-color:white;*/
 	width: 260px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 80px;
 	margin-top:40px; 
-	/*background-color:grey;*/
 }
 
 .page2_div3_mail_image{
-	/*position: relative;*/
-	width:50px;
-	height:40px;
-	/*background-color: black;*/
-	/*text-align: center;*/
+	width:40px;
+	height:32px;
 	z-index: 10;
 	margin-left: auto;
 	margin-right: auto;
 	background: url('../images/email copy.png') no-repeat;
-	/*margin-bottom: 20px;*/
-	background-size: 80%;
+	background-size: 100%;
 }
 
 .page2_div3_phone_image{
-	/*position: relative;*/
 	width:40px;
 	height:40px;
-	/*background-color: black;*/
-	/*text-align: center;*/
 	z-index: 10;
 	margin-left: auto;
 	margin-right: auto;
@@ -856,7 +792,6 @@ position: relative;
     margin-top:3px;
     font-family: 'Arimo' sans-serif;
 	font-weight: 100;
-	/*text-align: left;*/
 	color: #383434;
 	line-height: 27px;
 	font-size: 17px;
@@ -867,13 +802,9 @@ position: relative;
     position:relative;
     width:80px;
     height:80px;
-    /*display:inline-block;*/
     display: block;
 }
 
-#testclass{
-	/*background-color: red;*/
-}
 
 #testclass:hover{
 	cursor: pointer; cursor: hand;
@@ -882,16 +813,10 @@ position: relative;
 .facebook {
     background: url('../images/Page 2/page2_21.png');
     width:80px;
-    /*position: relative;*/
     height:80px;
-    /*display:inline-block;*/
     display: block;
     float: left;
-    /*margin-left:3px;*/
-    /*box-shadow: 3px 3px 3px #c6c6c6;*/
-    /*background-color: red;*/
     margin-right:10px; 
-    /*z-index: 10;*/
 }
 
 .facebook:hover{
@@ -903,16 +828,10 @@ position: relative;
 .gplus {
     background: url('../images/Page 2/page2_26.png');
     width:80px;
-    /*position: relative;*/
     height:80px;
-    /*display:inline-block;*/
     display: block;
     float: left;
-    /*margin-left:3px;*/
-    /*box-shadow: 3px 3px 3px #c6c6c6;*/
-    /*background-color: red;*/
     margin-right:10px; 
-    /*z-index: 10;*/
 }
 
 .gplus:hover{
@@ -923,16 +842,9 @@ position: relative;
 .twitter {
     background: url('../images/Page 2/page2_24.png');
     width:80px;
-    /*position: relative;*/
     height:80px;
-    /*display:inline-block;*/
     display: block;
     float: left;
-    /*margin-left:3px;*/
-    /*box-shadow: 3px 3px 3px #c6c6c6;*/
-    /*background-color: red;*/
-    /*margin-right:10px; */
-    /*z-index: 10;*/
 }
 
 .twitter:hover{
@@ -953,7 +865,6 @@ position: relative;
     width:50%;
     margin:0px auto;
     text-align:center;
-    /*background-color: red;*/
     top: 15px;
     opacity: 0.8;
 }
@@ -972,10 +883,6 @@ position: relative;
     opacity:0.9;   
     color: black;
 }
-/*
-.footer_text p:hover{
-	opacity: 1;
-}*/
 
 
 

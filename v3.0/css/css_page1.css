@@ -16,8 +16,6 @@ body{
 	margin-left: 35%;
 	margin-right: 25%;
 	width: 40%;
-	height: 300px;
-	/*background-color: white;*/
 	z-index: 6;
 	background: url('../images/loading.gif') no-repeat;
 	background-size: 70%;
@@ -26,14 +24,9 @@ body{
 #page1_1{
 	height:100vh;
 	width:100%;
-	/*min-width: 1000px;*/
-	/*opacity: 0.5;*/
 	overflow: hidden;
 	background: url('../images/page1_12.jpg');
-	/*background: url('../images/Page 2/gif.gif') no-repeat;*/
 	background-size: 100%;
-	/*background-color: blue;*/
-	/*z-index: -1;*/
 	position: absolute;
 	overflow: hidden;
 }
@@ -45,7 +38,6 @@ body{
 	display: block;
 	float: right;
 	margin-right: 10px;
-	/*background-color: red;*/
 	margin-bottom: 0px;
 	margin-left: 10px;
 }
@@ -55,38 +47,27 @@ body{
 	min-width: 900px;
 	position: relative;
 	overflow: visible;
-	/*margin: auto;*/
 	background: url('../images/title.png') no-repeat;
-	/*z-index: -1;*/
 	background-size: 75%;
-	/*position: fixed;*/
 	top:25%;
-	/*opacity: 0.5;*/
 	bottom: 20%;
 	left:28%;
 	display: none;
-	/*background-color: green;*/
 	right: 20%;
 }
 
 
 
 .down{
-	/*display: block;*/
-	/*float: right;*/
 	height:100px;
-	/*position: fixed;*/
 	width: 100px;
 	min-width: 30px;
 	position: absolute;
-	/*float: right;*/
 	background: url('../images/page1_5.png') no-repeat;
 	z-index: 5;
 	opacity: 1;
 	display: none;
 	background-size: 100%;
-	/*background-color: blue;*/
-	/*bottom: 0px;*/
 	right:60px;
 	top: 90vh;
 	 -webkit-animation:bounce 2s infinite;
@@ -134,19 +115,12 @@ body{
 	width:70%;
 	min-width: 30px;
 	position: absolute;
-	/*float: right;*/
-	/*background: url('../images/mailtest.png') no-repeat;*/
-	/*z-index: 1;*/
-	/*opacity: 0.2;
-	background-size: 90%;*/
 	background-color: blac;
-	/*display: none;*/
 	bottom:20%;
 	right:15%;
 }
 
 .button1_page1{
-	/*background-color: black;*/
 	display: block;
 	width: 27%;
 	min-width: 200px;
