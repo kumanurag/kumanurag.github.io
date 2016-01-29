@@ -1,0 +1,1066 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#page2{																													/*Division for the entire page*/
+	/*color:red;*/
+	width: 100%;
+	min-width: 1000px;
+	left:0px;
+	/*display: inline-block;*/
+	position: relative;
+	/*background-color: green;*/
+	height:auto;
+	top:100vh;
+	/*z-index: 5;*/
+	overflow: visible;
+	/*z-index: 5;*/
+}
+
+
+#navigation_menu{
+	top: 100px;
+	position: fixed;	
+	width:100px; 
+	display: inline-block;
+	height: 260px;
+	min-width: 100px;
+	z-index: 4;
+	float: left;
+	/*box-shadow: 0px 4px 23px #000000;*/
+	overflow: visible;
+	left: 70px;
+	/*margin-left: 10px;*/
+	display: none;
+}
+
+#up{
+	top: 85vh;
+	position: fixed;	
+	width:100px; 
+	display: inline-block;
+	height: 70px;
+	min-width: 70px;
+	z-index: 4;
+	float: right;
+	/*box-shadow: 0px 4px 23px #000000;*/
+	overflow: visible;
+	background-color: red;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_35.jpg') no-repeat;
+	background-size: 70%;
+	opacity: 0.1;
+	right: 60px;
+	z-index: 14;
+	/*margin-left: 10px;*/
+	display: none;
+}
+
+#up:hover{
+	opacity: 1;
+}
+
+.navigation_menu_div1, .navigation_menu_div2, .navigation_menu_div3  {
+	width: 100%;
+	height:80px;
+	margin-top: 1px;
+	background-color: white;
+	display: block;
+	float: right;
+	box-shadow: 1px 1px 2px #414040;
+	border-sizing:; border-box;
+	border: 1px solid #000000;
+	 -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+.navigation_menu_div_text_para{
+	height:24px;
+	width: auto;
+	/*margin-top: auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 28px;
+	/*background-color: green;*/
+}
+
+.navigation_menu_div_text{
+	font-size: 'Roboto' sans-serif;
+	font-size: 23px;
+	font-weight: 100;
+	color: #232121;
+	text-align: center;
+	margin-top: 20px;
+	vertical-align: auto;
+
+}/*
+
+.navigation_menu_div_text:hover{
+	color: white;
+}*/
+
+
+													/*SECOND PAGE_ABOUT ME DATA*/
+#page2_div1{
+
+	width: 100%;
+	height:auto;
+	/*float:left;*/
+	margin-top: 0px;
+	
+	/*z-index: 5;*/
+	min-width: 1400px;
+	/*background-color: #f0f0f0;*/
+	overflow: hidden;
+}
+
+#aboutme_main_div{
+	width: 74%;
+	position: relative;
+	margin-top: 20px;
+	margin-left: 13%;
+	min-width:700px;
+	overflow: hidden;
+	/*z-index: 10;*/
+	height: 1500px;
+	/*background-color: blue;*/
+}
+
+.aboutme_main_div_textbox{
+	width: 90%;
+	margin-top: 20px;
+	height:280px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 5%;
+	/*background-color: red;*/
+	border-bottom: 1px dotted #000000;
+
+}
+
+#aboutme_main_div_textbox1{
+	width: 90%;
+	margin-top: 20px;
+	height:280px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 5%;
+	/*background-color: red;*/
+	/*border-bottom: 1px dotted #000000;*/
+
+}
+
+.aboutme_main_div_textbox_heading{
+	width: 30%;
+	height: 50px;
+	margin-top: 50px;
+	position: relative;
+	margin-left: 37%;
+	/*background-color: green;*/
+}
+
+.aboutme_main_div_textbox_heading_text{
+	font-size: 'Roboto' sans-serif;
+	font-size: 33px;
+	font-weight: 400;
+	color: #232121;
+	text-align: center;
+}
+
+.aboutme_main_div_textbox_content{
+	width: 66%;
+	margin-left: 17%;
+	position: relative;
+	height: 150px;
+	/*background-color: green;*/
+	margin-top: 16px;
+}
+
+.aboutme_main_div_textbox_content_text{
+	font-family: 'Arimo' sans-serif;
+	font-weight: 100;
+	text-align: center;
+	color: #635f5f;
+	line-height: 27px;
+	font-size: 17px;
+}
+
+#bobmarley_quote{
+	font-family: 'PT Sans' sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	color: #635f5f;
+	line-height: 36px;
+	font-size: 22px;
+}
+
+#divmain_image{
+	width: 100%;
+	height: 700px;
+	/*background-color: green;*/
+	width: 62%;
+	margin-left: 19%;
+	margin-top: 40px;
+}
+
+.div_image1{
+	width: 190px;
+	margin-left: 3.33%;
+	/*background-color: blue;*/
+	display: block;
+	float: left;
+	margin-top: 18px;
+	height: 145px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/personal/img1.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.div_image2{
+	width: 190px;
+	margin-left: 3.33%;
+	/*background-color: blue;*/
+	display: inline-block;
+	float: left;
+	margin-top: 18px;
+	height: 145px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/personal/img2.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.div_image3{
+	width: 190px;
+	margin-left: 3.33%;
+	/*background-color: blue;*/
+	display: inline-block;
+	float: left;
+	margin-top: 18px;
+	height: 145px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/personal/img3.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.div_image4{
+	width: 190px;
+	margin-left: 3.33%;
+	/*background-color: blue;*/
+	display: inline-block;
+	float: left;
+	margin-top: 18px;
+	height: 145px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/personal/img4.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.div_image5{
+	width: 190px;
+	margin-left: 3.33%;
+	/*background-color: blue;*/
+	display: inline-block;
+	float: left;
+	margin-top: 18px;
+	height: 145px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/personal/img5.jpg') no-repeat;
+	background-size: 100%;
+}
+
+#div_image6{
+	width: 190px;
+	margin-left: 3.33%;
+	/*background-color: blue;*/
+	display: inline-block;
+	float: left;
+	margin-top: 18px;
+	height: 145px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/personal/img6.jpg') no-repeat;
+	background-size: 100%;
+}
+
+
+#gallery{
+	/*background-color: black;*/
+	width:100%;
+	height: 500px;
+	/*opacity: 0.5;*/
+	/*top: -350px;*/
+	position: relative;
+	top:00px;	
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+
+.slides {
+    padding: 0;
+    width: 630px;
+    height: 490px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 630px;
+    height: 450px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 100px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer; cursor: hand;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer; cursor: hand;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6,
+input#img-7:checked ~ .nav-dots label#img-dot-7  {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+/*#more_images:hover{
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_16.png') no-repeat;
+	cursor: pointer; cursor: hand;
+}*/
+#page2_div2{																				/*Divison testing for work*/
+	position: relative;
+	width: 100%;
+	min-width: 900px;
+	height: 800px;
+	min-height: 800px;
+	/*background-color: red;*/
+	width: 100%;
+	margin-top: 20px;
+}
+
+#page2_divtest_heading{	
+position: relative;																		
+	width: 30%;
+	height: 50px;
+	margin-top: 50px;
+	position: relative;
+	margin-left: 35%;
+	top: 100px;
+	/*background-color: blue;*/
+	z-index: 1;
+}
+
+#page2_divtest_divmain{
+	width: 70%;
+	position: relative;
+	height: 650px;
+	/*background-color: black;*/
+	margin-left: 15%;
+	top:120px;
+	overflow: visible;
+	/*z-index: 10;*/
+}
+
+#page2_divtest_box1{
+	margin-top: 20px;
+	/*background-color: red;*/
+	margin-left: 0px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: right;
+	display: block;
+}
+
+#page2_divtest_box2{
+	/*margin-top: -200px;*/
+	margin-left: 0px;
+	/*opacity: 0.5;*/
+	width: 100%;
+	height: auto;
+	/*background-color: grey;*/
+	position: relative;
+	float: right;
+	display: block;
+}
+
+#page2_divtest_box3{
+	/*margin-top: -200px;*/
+	/*background-color: green;*/
+	/*opacity: 0.5;*/
+	margin-left: 0px;
+	width: 100%;
+	position: relative;
+	height: auto;
+	float: right;
+	display: block;
+}
+
+/*.page2_divtest_work1, .page2_divtest_work2, .page2_divtest_work3, .page2_divtest_work4{
+	position: relative;
+	width: 35%;
+	height: 70px;
+	background-color: white;
+	border: 1px solid #000000;
+	margin-left: 10%;
+	opacity: 1;
+	float: left;
+	margin-top: 30px;
+	box-shadow: 2px 2px 4px #000000;
+}
+
+.page2_divtest_work5{
+	position: relative;
+	width: 35%;
+	height: 70px;
+	background-color: white;
+	border: 1px solid #000000;
+	margin-left: 32.5%;
+	float: left;
+	opacity: 1;
+	box-shadow: 2px 2px 4px #000000;
+	margin-top: 30px;
+}*/
+
+.page2_divtest_work1{
+	position: relative;
+	width: 40%;
+	height: 70px;
+	background-color: white;
+	border: 1px solid #000000;
+	margin-left: 110px;
+	opacity: 1;
+	float: left;
+	margin-top: 30px;
+	box-shadow: 1px 1px 2px #414040;
+}
+
+.page2_divtest_work2{
+	position: relative;
+	width: 35%;
+	height: 70px;
+	background-color: white;
+	border: 1px solid #000000;
+	margin-left: 30px;
+	opacity: 1;
+	float: left;
+	margin-top: 30px;
+	box-shadow: 1px 1px 2px #414040;
+}
+
+.page2_divtest_work3{
+	position: relative;
+	width: 30%;
+	height: 70px;
+	background-color: white;
+	border: 1px solid #000000;
+	margin-left: 85px;
+	opacity: 1;
+	float: left;
+	margin-top: 40px;
+	box-shadow: 1px 1px 2px #414040;
+}
+.page2_divtest_work4{
+	position: relative;
+	width: 50%;
+	height: 70px;
+	background-color: white;
+	border: 1px solid #000000;
+	margin-left: 40px;
+	opacity: 1;
+	float: left;
+	margin-top: 40px;
+	box-shadow: 1px 1px 2px #414040;
+}
+.page2_divtest_work5{
+	position: relative;
+	width: 65%;
+	height: 70px;
+	background-color: white;
+	border: 1px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1;
+	box-shadow: 1px 1px 2px #414040;
+	margin-top: 40px;
+}
+
+.page2_divtest_work1:hover, .page2_divtest_work2:hover, .page2_divtest_work3:hover, .page2_divtest_work4:hover, .page2_divtest_work5:hover{
+	background-color: black;
+	cursor: pointer; cursor: hand;
+}
+
+.page2_divtest_work1:hover p, .page2_divtest_work2:hover p, .page2_divtest_work3:hover p, .page2_divtest_work4:hover p, .page2_divtest_work5:hover p{
+	color: white;
+	cursor: pointer; cursor: hand;
+}
+
+.page2_divtest_work1_details, .page2_divtest_work2_details, .page2_divtest_work3_details, .page2_divtest_work4_details{
+	position: relative;
+	width: 80%;
+	height: 270px;
+	background-color: white;
+	border: 1px solid #b7b7b8;
+	margin-left: 10%;
+	/*display: block;*/
+	float: left;
+	display: none;
+	margin-top: 10px;
+}
+
+.page2_divtest_work5_details{
+	position: relative;
+	width: 80%;
+	height: 270px;
+	background-color: white;
+	border: 1px solid #b7b7b8;
+	margin-left: 10%;
+	/*display: block;*/
+	float: left;
+	display: none;
+	margin-top: 10px;
+}
+
+.page2_divtest_work5_details_divcontent{
+	position: relative;
+	width: 63%;
+	height: 240px;
+	margin-top: 15px;
+	margin-right: 5px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+	/*background-color: red;*/
+}
+
+.page2_divtest_work5_details_divimage1{
+	position: relative;
+	width: 33%;
+	margin-right: 0px;
+	display: block;
+	height: 220px;
+	float: right;
+	background-color: red;
+	margin-top: 25px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_28.jpg') no-repeat;
+	background-size: 100%;
+
+}
+.page2_divtest_work5_details_divimage3{
+	position: relative;
+	width: 30%;
+	margin-right: 10px;
+	display: block;
+	height: 220px;
+	float: right;
+	background-color: red;
+	margin-top: 25px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_29.jpg') no-repeat;
+	background-size: 100%;
+	overflow: visible;
+
+}
+.page2_divtest_work5_details_divimage2{
+	position: relative;
+	width: 31%;
+	margin-right: 0px;
+	display: block;
+	height: 220px;
+	float: right;
+	background-color: red;
+	margin-top: 25px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_30.jpg') no-repeat;
+	background-size: 100%;
+
+}
+.page2_divtest_work5_details_divimage4{
+	position: relative;
+	width: 33%;
+	margin-right: 0px;
+	display: block;
+	height: 220px;
+	float: right;
+	background-color: red;
+	margin-top: 25px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_32.jpg') no-repeat;
+	background-size: 100%;
+
+}
+.page2_divtest_work5_details_divimage5{
+	position: relative;
+	width: 33%;
+	margin-right: 0px;
+	display: block;
+	height: 220px;
+	float: right;
+	background-color: red;
+	margin-top: 25px;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_31.jpg') no-repeat;
+	background-size: 100%;
+
+}
+
+
+
+
+.page2_divtest_work5_details_divcontent_text{
+	font-family: 'Arimo' sans-serif;
+	font-weight: 100;
+	text-align: left;
+	color: #383434;
+	line-height: 27px;
+	font-size: 17px;
+}
+
+.page2_divtest_work_text{
+	text-align: center;
+	font-style: 'PT Sans' sans-serif;
+	font-size: 23px;
+	color: black;
+}
+
+
+.button_div{
+	width: 150px;
+	display: block;
+	/*margin-top: 200px;*/
+	height: 50px;
+	min-width: 150px;
+	/*margin-bottom: 100px;*/
+	position: relative;
+	/*background-color: blue;*/
+	/*z-index: 30;*/
+	/*position: absolute;*/
+	margin-left: 85%;
+	/*margin-top: 100px;*/
+	top: -30px;
+	/*float: right;*/
+}
+
+.div_button1_page2{
+	/*background-color: #6c350e;*/
+	display: block;
+	width: 50px;
+	height:50px;
+	min-height: 40px;
+	min-width: 40px;
+	/*margin-left:40px;*/
+	/*margin-top: 0px;*/
+	/*border: 1px solid #000000;*/
+	float: left;
+	position: relative;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_15.png');
+}
+.div_button2_page2{
+	display: block;
+	width: 50px;
+	height:50px;
+	min-width: 50px;
+	/*height:100%;*/
+	/*margin-top: 0px;*/
+	min-height: 40px;
+	/*border: 1px solid #000000;*/
+	/*margin-left:20px;*/
+	left: 30px;
+	float: left;
+	position: relative;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_14.png') no-repeat;
+	/*background-size: 100%;*/
+	/*background-color: #6c350e;*/
+}
+
+.div_button_page2_text{
+	width: 70%;
+	height:60%;
+	/*z-index: 1;*/
+	left:16%;
+	margin-top:11.5px;
+	position: relative;
+	font-family: 'PT Sans' sans-serif;
+	font-weight: 100;
+	font-size: 23px; 
+	text-align: center;
+	color: #000000;
+	/*color: white;*/
+}
+.div_button_page2_text1{
+	width: 70%;
+	height:60%;
+	/*z-index: 1;*/
+	left:15%;
+	margin-top:11.5px;
+	position: relative;
+	/*text-align: center;*/
+	font-family: 'PT Sans' sans-serif;
+	font-weight: 100;
+	font-size: 23px; 
+	color: #000000;
+	/*color: white;*/
+}
+
+.div_button1_page2:hover{
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_16.png') no-repeat;
+	/*background-size: 100%;*/
+	cursor: pointer; cursor: hand;
+	/*color: white;
+	background-color: #000000;
+	/*opacity: 0.9;*/
+	/*border: 1px solid #eb0a0a;*/
+}
+
+.div_button2_page2:hover{
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_17.png') no-repeat;
+	/*background-size: 100%;*/
+	cursor: pointer; cursor: hand;
+	/*color: white;
+	background-color: #000000;
+	/*opacity: 0.9;*/
+	/*border: 1px solid #eb0a0a;*/
+}
+.div_button1_page2:hover p{
+	color: #f3eeee;
+	cursor: pointer; cursor: hand;
+
+}
+.div_button2_page2:hover p{
+	color: #f3eeee;
+	cursor: pointer; cursor: hand;
+}
+
+
+
+
+#page2_div3{
+    /*margin-top:0px;*/
+    /*padding:0px;*/
+    width:100%;
+    height:auto;
+    display: block;
+    overflow:hidden;
+    text-align:center;
+    position: relative;
+    min-width: 1000px;
+    /*background-color: black;*/
+    
+}
+
+.page2_div3_maincontent{
+	position: relative;																		
+	width: 70%;
+	height: 700px;
+	/*margin-top: 100px;*/
+	/*position: relative;*/
+	margin-left: 15%;
+	top: 10px;
+	/*background-color: red;*/
+	/*z-index: 1;*/
+	display: block;
+}
+
+.page2_div3_heading{
+	position: absolute;																		
+	width: 30%;
+	top: 60px;
+	height: 50px;
+	/*margin-top: 100px;*/
+	position: relative;
+	margin-left: 35%;
+	/*top: 0px;*/
+	/*background-color: blue;*/
+	z-index: 1;
+}
+
+.page2_div3_details{
+	position: relative;
+	width: 50%;
+	margin-left: 25%;
+	height: 500px;
+	top: 140px;
+	/*background-color:green;*/
+	display: block;
+}
+
+.page2_div3_mail{
+	text-align:center;
+	/*background-color:white;*/
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+
+}
+
+.page2_div3_phone{
+	text-align:center;
+	/*background-color:white;*/
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	margin-top:10px; 
+	/*background-color:pink;*/
+}
+
+.page2_div3_social{
+	text-align:center;
+	/*background-color:white;*/
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	margin-top:40px; 
+	/*background-color:grey;*/
+}
+
+.page2_div3_mail_image{
+	/*position: relative;*/
+	width:50px;
+	height:40px;
+	/*background-color: black;*/
+	/*text-align: center;*/
+	z-index: 10;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/email copy.png') no-repeat;
+	/*margin-bottom: 20px;*/
+	background-size: 80%;
+}
+
+.page2_div3_phone_image{
+	/*position: relative;*/
+	width:40px;
+	height:40px;
+	/*background-color: black;*/
+	/*text-align: center;*/
+	z-index: 10;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_34.jpg') no-repeat;
+	background-size: 90%;
+}
+
+.mail{
+    margin:0px auto;
+    font-size:18px;
+    color:#206524;
+    margin-top:3px;
+    font-family: 'Arimo' sans-serif;
+	font-weight: 100;
+	/*text-align: left;*/
+	color: #383434;
+	line-height: 27px;
+	font-size: 17px;
+
+}
+.social_media{
+    margin-right:10px;
+    position:relative;
+    width:80px;
+    height:80px;
+    /*display:inline-block;*/
+    display: block;
+}
+
+#testclass{
+	/*background-color: red;*/
+}
+
+#testclass:hover{
+	cursor: pointer; cursor: hand;
+}
+
+.facebook {
+    background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_21.png');
+    width:80px;
+    /*position: relative;*/
+    height:80px;
+    /*display:inline-block;*/
+    display: block;
+    float: left;
+    /*margin-left:3px;*/
+    /*box-shadow: 3px 3px 3px #c6c6c6;*/
+    /*background-color: red;*/
+    margin-right:10px; 
+    /*z-index: 10;*/
+}
+
+.facebook:hover{
+	cursor: pointer; cursor: hand;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_23.png') no-repeat;
+	background-size: 
+}
+
+.gplus {
+    background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_26.png');
+    width:80px;
+    /*position: relative;*/
+    height:80px;
+    /*display:inline-block;*/
+    display: block;
+    float: left;
+    /*margin-left:3px;*/
+    /*box-shadow: 3px 3px 3px #c6c6c6;*/
+    /*background-color: red;*/
+    margin-right:10px; 
+    /*z-index: 10;*/
+}
+
+.gplus:hover{
+	cursor: pointer; cursor: hand;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_27.png');
+}
+
+.twitter {
+    background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_24.png');
+    width:80px;
+    /*position: relative;*/
+    height:80px;
+    /*display:inline-block;*/
+    display: block;
+    float: left;
+    /*margin-left:3px;*/
+    /*box-shadow: 3px 3px 3px #c6c6c6;*/
+    /*background-color: red;*/
+    /*margin-right:10px; */
+    /*z-index: 10;*/
+}
+
+.twitter:hover{
+	cursor: pointer; cursor: hand;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/page2_25.png') no-repeat;
+	background-size: 100%;
+}
+.footer{
+    background-color:#f2f2f2;
+    margin-bottom:0px;
+    width:100%;
+    height:80px;
+    -webkit-box-shadow: 0px -4px 7px #b2b2b2b;
+    -moz-box-shadow: 0px -4px 7px #b2b2b2;
+    box-shadow: 0px -4px 7px #b2b2b2;
+}
+.footer_text{
+    width:50%;
+    margin:0px auto;
+    text-align:center;
+    /*background-color: red;*/
+    top: 15px;
+    opacity: 0.8;
+}
+.copyright{
+    font-size:16px;
+    font-family:'Roboto';
+    font-weight:100;
+    color:black;
+    padding-top:6px;
+    opacity:0.9;
+}
+.built_by{
+    font-family:'Gabriola';
+    font-size:18px;
+    line-height:0; 
+    opacity:0.9;   
+    color: black;
+}
+/*
+.footer_text p:hover{
+	opacity: 1;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

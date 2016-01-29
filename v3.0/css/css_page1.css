@@ -1,0 +1,188 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+#page1_1{
+	height:100vh;
+	width:100%;
+	min-width: 1000px;
+	/*opacity: 0.5;*/
+	overflow: hidden;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/page1_12.jpg');
+	/*background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/gif.gif') no-repeat;*/
+	background-size: 100%;
+	/*background-color: blue;*/
+	/*z-index: -1;*/
+	position: absolute;
+	overflow: visible;
+}
+
+#down{
+	position: relative;
+	width:25%;
+	height: 25%;
+	display: block;
+	float: right;
+	margin-right: 10px;
+	/*background-color: red;*/
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.page1_2{
+	height: 50%;
+	width: 50%;
+	min-width: 900px;
+	position: relative;
+	overflow: visible;
+	/*margin: auto;*/
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/title.png') no-repeat;
+	/*z-index: -1;*/
+	background-size: 75%;
+	/*position: fixed;*/
+	top:25%;
+	/*opacity: 0.5;*/
+	bottom: 20%;
+	left:28%;
+	display: none;
+	/*background-color: green;*/
+	right: 20%;
+}
+
+
+
+.down{
+	/*display: block;*/
+	/*float: right;*/
+	height:100px;
+	/*position: fixed;*/
+	width: 100px;
+	min-width: 30px;
+	position: absolute;
+	/*float: right;*/
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/page1_5.png') no-repeat;
+	z-index: 5;
+	opacity: 1;
+	display: none;
+	background-size: 100%;
+	/*background-color: blue;*/
+	/*bottom: 0px;*/
+	right:60px;
+	top: 90vh;
+	 -webkit-animation:bounce 2s infinite;
+	 animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-20px); }
+  60% {
+    -webkit-transform: translateY(-15px); } }
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-20px); }
+  60% {
+    -moz-transform: translateY(-15px); } }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+.page1_4{
+	display: block;
+	float:right;
+	height:60%;
+	width:70%;
+	min-width: 30px;
+	position: absolute;
+	/*float: right;*/
+	/*background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/mailtest.png') no-repeat;*/
+	/*z-index: 1;*/
+	/*opacity: 0.2;
+	background-size: 90%;*/
+	background-color: blac;
+	/*display: none;*/
+	bottom:20%;
+	right:15%;
+}
+
+.button1_page1{
+	/*background-color: black;*/
+	display: block;
+	width: 27%;
+	min-width: 200px;
+	height:13%;
+	min-height: 50px;
+	z-index: 1;
+	top:320px;
+	left:25%;
+	position: relative;
+	border: 1px solid #cccccc;
+	opacity: 1;
+	display: none;
+	overflow: visible;
+}
+
+
+.div_button_page1_text{
+	width: 70%;
+	height:60%;
+	z-index: 2;
+	top:23%;
+	left:16%;
+	position: absolute;
+}
+
+.text_page1{
+	font-family: 'PT Sabs' sans-serif;
+	font-weight: 500;
+	font-size:  24px;
+	margin-top:0;
+	color: #cccccc;
+	text-align: center;
+	z-index: 1;
+	/*position: absolute;*/
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.button1_page1:hover{
+	/*background-color: #aa171d;*/
+	background-color: white;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.button1_page1:hover p{
+	/*background-color: #aa171d;*/
+	color: black;
+	/*opacity: 0.8;*/
+	cursor: pointer;
+	font-weight: 400;
+}
+
+.down:hover{
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/page1_6.png') no-repeat;
+	background-size: 100%;
+	cursor: pointer;
