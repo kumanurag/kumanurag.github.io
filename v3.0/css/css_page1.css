@@ -9,7 +9,7 @@ body{
 	min-width: 1000px;
 	/*opacity: 0.5;*/
 	overflow: hidden;
-	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/page1_12.jpg');
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v3.0/images/page1_12.jpg');
 	/*background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/Page 2/gif.gif') no-repeat;*/
 	background-size: 100%;
 	/*background-color: blue;*/
@@ -36,7 +36,7 @@ body{
 	position: relative;
 	overflow: visible;
 	/*margin: auto;*/
-	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/title.png') no-repeat;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v3.0/images/title.png') no-repeat;
 	/*z-index: -1;*/
 	background-size: 75%;
 	/*position: fixed;*/
@@ -60,7 +60,7 @@ body{
 	min-width: 30px;
 	position: absolute;
 	/*float: right;*/
-	background: url('/Users/Anurag/Documents/kumanurag.github.io/v2.0/images/page1_5.png') no-repeat;
+	background: url('/Users/Anurag/Documents/kumanurag.github.io/v3.0/images/page1_5.png') no-repeat;
 	z-index: 5;
 	opacity: 1;
 	display: none;
