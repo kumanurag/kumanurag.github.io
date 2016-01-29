@@ -67,9 +67,9 @@ body{
 	background-color: white;
 	display: block;
 	float: right;
-	box-shadow: 1px 1px 2px #414040;
+	box-shadow: 1px 1px 1px #565656;
 	border-sizing:; border-box;
-	border: 1px solid #000000;
+	border: 1px solid #565656;
 	 -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 
@@ -437,12 +437,12 @@ position: relative;
 	width: 40%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #000000;
+	border: 1px solid #565656;
 	margin-left: 110px;
 	opacity: 1;
 	float: left;
 	margin-top: 30px;
-	box-shadow: 1px 1px 2px #414040;
+	box-shadow: 1px 1px 1px #565656;
 }
 
 .page2_divtest_work2{
@@ -450,12 +450,12 @@ position: relative;
 	width: 35%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #000000;
+	border: 1px solid #565656;
 	margin-left: 30px;
 	opacity: 1;
 	float: left;
 	margin-top: 30px;
-	box-shadow: 1px 1px 2px #414040;
+	box-shadow: 1px 1px 1px #565656;
 }
 
 .page2_divtest_work3{
@@ -463,35 +463,35 @@ position: relative;
 	width: 30%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #000000;
+	border: 1px solid #565656;
 	margin-left: 85px;
 	opacity: 1;
 	float: left;
 	margin-top: 40px;
-	box-shadow: 1px 1px 2px #414040;
+	box-shadow: 1px 1px 1px #565656;
 }
 .page2_divtest_work4{
 	position: relative;
 	width: 50%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #000000;
+	border: 1px solid #565656;
 	margin-left: 40px;
 	opacity: 1;
 	float: left;
 	margin-top: 40px;
-	box-shadow: 1px 1px 2px #414040;
+	box-shadow: 1px 1px 1px #565656;
 }
 .page2_divtest_work5{
 	position: relative;
 	width: 65%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #000000;
+	border: 1px solid #565656;
 	margin-left: auto;
 	margin-right: auto;
 	opacity: 1;
-	box-shadow: 1px 1px 2px #414040;
+	box-shadow: 1px 1px 1px #565656;
 	margin-top: 40px;
 }
 

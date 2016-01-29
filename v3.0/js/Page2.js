@@ -1,5 +1,6 @@
 $(window).bind("load", function() {
-   // code here
+   
+   
 
 $(document).ready(function () {
             $('a[href^="#"]').on('click', function (e) {
