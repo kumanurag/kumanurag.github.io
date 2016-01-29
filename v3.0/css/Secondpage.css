@@ -6,11 +6,11 @@ body{
 #page2{																													/*Division for the entire page*/
 	/*color:red;*/
 	width: 100%;
-	min-width: 900px;
+	min-width: 600px;
 	left:0px;
 	/*display: inline-block;*/
 	position: relative;
-	/*background-color: green;*/
+	background-color: green;
 	height:auto;
 	top:100vh;
 	/*z-index: 5;*/
