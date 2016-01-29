@@ -67,9 +67,8 @@ body{
 	background-color: white;
 	display: block;
 	float: right;
-	box-shadow: 1px 1px 1px #565656;
-	border-sizing:; border-box;
-	border: 1px solid #565656;
+	box-shadow: 1px 1px 1px #d6d6d6;
+	border: 1px solid #d6d6d6;
 	 -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 
@@ -87,7 +86,7 @@ body{
 
 .navigation_menu_div_text{
 	font-size: 'Roboto' sans-serif;
-	font-size: 23px;
+	font-size: 20px;
 	font-weight: 100;
 	color: #232121;
 	text-align: center;
@@ -437,12 +436,12 @@ position: relative;
 	width: 40%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #565656;
+	border: 1px solid #969494;
 	margin-left: 110px;
 	opacity: 1;
 	float: left;
 	margin-top: 30px;
-	box-shadow: 1px 1px 1px #565656;
+	box-shadow: 1px 1px 1px #969494;
 }
 
 .page2_divtest_work2{
@@ -450,12 +449,12 @@ position: relative;
 	width: 35%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #565656;
+	border: 1px solid #969494;
 	margin-left: 30px;
 	opacity: 1;
 	float: left;
 	margin-top: 30px;
-	box-shadow: 1px 1px 1px #565656;
+	box-shadow: 1px 1px 1px #969494;
 }
 
 .page2_divtest_work3{
@@ -463,35 +462,35 @@ position: relative;
 	width: 30%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #565656;
+	border: 1px solid #969494;
 	margin-left: 85px;
 	opacity: 1;
 	float: left;
 	margin-top: 40px;
-	box-shadow: 1px 1px 1px #565656;
+	box-shadow: 1px 1px 1px #969494;
 }
 .page2_divtest_work4{
 	position: relative;
 	width: 50%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #565656;
+	border: 1px solid #969494;
 	margin-left: 40px;
 	opacity: 1;
 	float: left;
 	margin-top: 40px;
-	box-shadow: 1px 1px 1px #565656;
+	box-shadow: 1px 1px 1px #969494;
 }
 .page2_divtest_work5{
 	position: relative;
 	width: 65%;
 	height: 70px;
 	background-color: white;
-	border: 1px solid #565656;
+	border: 1px solid #969494;
 	margin-left: auto;
 	margin-right: auto;
 	opacity: 1;
-	box-shadow: 1px 1px 1px #565656;
+	box-shadow: 1px 1px 1px #969494;
 	margin-top: 40px;
 }
 
