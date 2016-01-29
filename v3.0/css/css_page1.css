@@ -9,8 +9,8 @@ body{
 	min-width: 1000px;
 	/*opacity: 0.5;*/
 	overflow: hidden;
-	background: url('v3.0/images/page1_12.jpg');
-	/*background: url('v2.0/images/Page 2/gif.gif') no-repeat;*/
+	background: url('../images/page1_12.jpg');
+	/*background: url('../images/Page 2/gif.gif') no-repeat;*/
 	background-size: 100%;
 	/*background-color: blue;*/
 	/*z-index: -1;*/
@@ -36,7 +36,7 @@ body{
 	position: relative;
 	overflow: visible;
 	/*margin: auto;*/
-	background: url('v3.0/images/title.png') no-repeat;
+	background: url('../images/title.png') no-repeat;
 	/*z-index: -1;*/
 	background-size: 75%;
 	/*position: fixed;*/
@@ -60,7 +60,7 @@ body{
 	min-width: 30px;
 	position: absolute;
 	/*float: right;*/
-	background: url('v3.0/images/page1_5.png') no-repeat;
+	background: url('../images/page1_5.png') no-repeat;
 	z-index: 5;
 	opacity: 1;
 	display: none;
@@ -115,7 +115,7 @@ body{
 	min-width: 30px;
 	position: absolute;
 	/*float: right;*/
-	/*background: url('v2.0/images/mailtest.png') no-repeat;*/
+	/*background: url('../images/mailtest.png') no-repeat;*/
 	/*z-index: 1;*/
 	/*opacity: 0.2;
 	background-size: 90%;*/
@@ -183,6 +183,6 @@ a:link{
 }
 
 .down:hover{
-	background: url('v2.0/images/page1_6.png') no-repeat;
+	background: url('../images/page1_6.png') no-repeat;
 	background-size: 100%;
 	cursor: pointer;
