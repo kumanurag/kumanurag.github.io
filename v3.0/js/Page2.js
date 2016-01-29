@@ -120,9 +120,9 @@ $(document).ready(function () {
     });
 
 $(document).ready(function() {
-    $(".down").delay(1000).fadeIn(500);
-    $(".button1_page1").delay(1000).fadeIn(500);
-    $(".page1_2").delay(460).fadeIn(500);
+    $(".down").delay(1500).fadeIn(500);
+    $(".button1_page1").delay(1500).fadeIn(500);
+    $(".page1_2").delay(800).fadeIn(500);
 });
 
 $(document).scroll(function() {
