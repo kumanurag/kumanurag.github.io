@@ -33,16 +33,6 @@ body{
 	max-height: 1100px;
 }
 
-#down{
-	position: relative;
-	width:25%;
-	height: 25%;
-	display: block;
-	float: right;
-	margin-right: 10px;
-	margin-bottom: 0px;
-	margin-left: 10px;
-}
 .page1_2{
 	height: 50%;
 	width: 50%;
