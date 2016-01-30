@@ -46,7 +46,7 @@ body{
 	float: right;
 	/*box-shadow: 0px 4px 23px #000000;*/
 	overflow: visible;
-	background-color: red;
+	/*background-color: red;*/
 	background: url('../images/Page 2/page2_35.jpg') no-repeat;
 	background-size: 70%;
 	opacity: 0.1;
@@ -368,7 +368,7 @@ position: relative;
 	width: 70%;
 	position: relative;
 	height: 650px;
-	background-color: black;
+	/*background-color: black;*/
 	margin-left: 15%;
 	top:120px;
 	overflow: visible;
@@ -500,7 +500,7 @@ position: relative;
 }
 
 .page2_divtest_work1:hover, .page2_divtest_work2:hover, .page2_divtest_work3:hover, .page2_divtest_work4:hover, .page2_divtest_work5:hover{
-	background-color: black;
+	/*background-color: black;*/
 	cursor: pointer; cursor: hand;
 }
 
