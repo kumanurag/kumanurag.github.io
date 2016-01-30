@@ -500,7 +500,7 @@ position: relative;
 }
 
 .page2_divtest_work1:hover, .page2_divtest_work2:hover, .page2_divtest_work3:hover, .page2_divtest_work4:hover, .page2_divtest_work5:hover{
-	/*background-color: black;*/
+	background-color: black;
 	cursor: pointer; cursor: hand;
 }
 
