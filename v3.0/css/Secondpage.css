@@ -82,6 +82,7 @@ a{
 	z-index: 100;
 	/*margin-left: 10px;*/
 	display: none;
+
 }
 
 .menu_icon{
@@ -97,11 +98,13 @@ a{
 	/*margin-top: 10%;*/
 	/*z-index: 6;*/
 	box-shadow: 2px 2px 3px #949393;
+	background-color: #075d58;
 }
 
 .menu_icon:hover{
-	background: url('../images/Page 2/page2_16_1.png');
+	/*background: url('../images/Page 2/page2_16_1.png');*/
 	cursor: crosshair;
+	background-color: #053e3b;
 }
 
 .menu_items{
@@ -1355,11 +1358,13 @@ a{
     float: left;background-size: 100%;
     margin-right:10px; 
     box-shadow: 2px 2px 2px #969494;
+    background-color: #dc4a38;
 }
 
 .gplus:hover{
 	cursor: pointer; cursor: hand;
-	background: url('../images/Page 2/gplus2.jpg');background-size: 100%;
+	/*background: url('../images/Page 2/gplus2.jpg');background-size: 100%;*/
+	background-color: #7a271f;
 }
 
 .linkedin {
@@ -1370,11 +1375,13 @@ a{
     float: left;
     background-size: 100%;
     box-shadow: 2px 2px 2px #969494;
+    background-color: #007bb6;
 }
 
 .linkedin:hover{
 	cursor: pointer; cursor: hand;
-	background: url('../images/Page 2/linked1.jpg') no-repeat;
+	/*background: url('../images/Page 2/linked1.jpg') no-repeat;*/
+	background-color: #035f8e;
 	background-size: 100%;
 }
 .footer{
