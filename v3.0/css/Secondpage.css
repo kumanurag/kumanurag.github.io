@@ -1330,19 +1330,20 @@ a{
 }
 
 .facebook {
-    background: url('../images/Page 2/fb2.png');
+    background: url('../images/Page 2/fb1.png');
     width:80px;
     height:80px;
     display: block;
     float: left;
     margin-right:10px; 
     background-size: 100%;
+    background-color: #3b5998;
     box-shadow: 2px 2px 2px #969494;
 }
 
 .facebook:hover{
 	cursor: pointer; cursor: hand;
-	background: url('../images/Page 2/fb1.jpg');
+	background-color: #000000;
 	background-size: 100%;
 }
 
