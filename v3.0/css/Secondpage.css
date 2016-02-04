@@ -101,6 +101,7 @@ a{
 
 .menu_icon:hover{
 	background: url('../images/Page 2/page2_16_1.png');
+	cursor: pointer;
 }
 
 .menu_items{
@@ -563,6 +564,7 @@ min-width: 100px;
 	height: 100%;
 	background-color: #0a887b;
 	opacity: 0.85;
+	cursor: pointer;
 	/*z-index: 10;*/
 }
 .page2_div2_work1_hover_heading, .page2_div2_work2_hover_heading, .page2_div2_work3_hover_heading, .page2_div2_work4_hover_heading, .page2_div2_work5_hover_heading{
@@ -996,6 +998,7 @@ position: relative;
 .sld1_t1:hover, .sld1_t2:hover, .sld1_t3:hover, .sld1_t4:hover, .sld1_t5:hover, .sld2_t1:hover, .sld2_t2:hover, .sld2_t3:hover, .sld2_t4:hover,
 .std1_t1:hover, .std1_t2:hover, .std1_t3:hover, .std1_t4:hover, .std1_t5:hover, .std2_t1:hover, .std2_t2:hover, .std2_t3:hover, .std2_t4:hover, .std2_t5:hover{
 	background-color: #ececec;
+	cursor: pointer;
 }
 
 .std1_t1,.std1_t2,.std1_t3,.std1_t4,.std1_t5,.std1_t6,.std1_t6,.std1_t7, .std2_t1,.std2_t2, .std2_t3, .std2_t4, .std2_t5{
