@@ -105,7 +105,7 @@ height: auto;
 	z-index: 1;
 	/*position: absolute;*/
 }
-
+/*
 .down_hover{
 	height:100px;
 	width: 100px;
@@ -115,14 +115,14 @@ height: auto;
 	z-index: 5;
 	opacity: 1;
 	display: none;
-	/*background-color:blue;*/
+	background-color:blue;
 	background-size: 100%;
 	right:60px;
-	top: 89vh;
-	/*-webkit-animation:bounce 3s infinite;
+	top: 90vh;
+	-webkit-animation:bounce 3s infinite;
 	 animation: bounce 3s infinite;
-	*/
-}
+	
+}*/
 .down{
 	height:100px;
 	width: 100px;
@@ -219,7 +219,7 @@ a:link{
 }
 
 .down:hover{
-	background: url('../images/Page 2/up.png') no-repeat;
+	background: url('../images/Page 2/up1.png') no-repeat;
 	background-size: 100%;
 	cursor: pointer;
 }
