@@ -105,15 +105,34 @@ height: auto;
 	z-index: 1;
 	/*position: absolute;*/
 }
+
+.down_hover{
+	height:100px;
+	width: 100px;
+	min-width: 30px;
+	position: absolute;
+	background: url('../images/Page 2/up.png') no-repeat;
+	z-index: 5;
+	opacity: 1;
+	display: none;
+	/*background-color:blue;*/
+	background-size: 100%;
+	right:60px;
+	top: 89vh;
+	/*-webkit-animation:bounce 3s infinite;
+	 animation: bounce 3s infinite;
+	*/
+}
 .down{
 	height:100px;
 	width: 100px;
 	min-width: 30px;
 	position: absolute;
 	background: url('../images/page1_5.png') no-repeat;
-	z-index: 5;
+	z-index: 6;
 	opacity: 1;
-	display: none;
+	/*display: none;*/
+	/*background-color: red;*/
 	background-size: 100%;
 	right:60px;
 	top: 90vh;
