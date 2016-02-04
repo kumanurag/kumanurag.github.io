@@ -29,12 +29,9 @@ body{
 	height:100vh;
 	width:100%;
 	overflow: visible;
-	/*background: url('../images/page1_121.jpg') no-repeat;
-	background-size: 100%;*/
 	position: relative;
 	overflow: hidden;
 	top: 0px;
-	/*display: none;*/
 	max-height: 1400px;
 	z-index: 2;
 
@@ -47,9 +44,7 @@ body{
 	position: absolute;
 	overflow: visible;
 	min-height: 150px;
-	/*background-color: red;*/
 	top:22%;
-	/*bottom: 25%;*/
 	left:17%;
 	display: none;
 }
@@ -58,18 +53,11 @@ body{
 	width: 35%;
 	min-width: 150px;
 	position: absolute;
-	/*background-color: red;*/
 	overflow: visible;
 	min-height: 150px;
-	/*background: url('../images/title.png') no-repeat;*/
-	/*background-size: 100%;*/
 	top:22%;
-	/*bottom: 25%;*/
 	left:17%;
 	display: none;
-	/*z-index: 2;*/
-	/*right: 25%;*/
-
 }
 
 .interests{
@@ -80,7 +68,6 @@ body{
 	display: none;
 	width: auto;
 	height: auto;
-	/*background-color: red;*/
 	border-left: 1px solid #fe7474;
 }
 
@@ -90,7 +77,6 @@ margin-bottom: 5%;
 margin-left: 5%;
 width: auto;
 height: auto;
-/*background-color: blue;*/
 }
 
 .interests_text{
@@ -100,29 +86,10 @@ height: auto;
 	margin-top:0;
 	margin-bottom: 0px;
 	color: #f7d5c7;
-	/*background-color:red;*/
 	text-align: left;
 	z-index: 1;
-	/*position: absolute;*/
 }
-/*
-.down_hover{
-	height:100px;
-	width: 100px;
-	min-width: 30px;
-	position: absolute;
-	background: url('../images/Page 2/up.png') no-repeat;
-	z-index: 5;
-	opacity: 1;
-	display: none;
-	background-color:blue;
-	background-size: 100%;
-	right:60px;
-	top: 90vh;
-	-webkit-animation:bounce 3s infinite;
-	 animation: bounce 3s infinite;
-	
-}*/
+
 .down{
 	height:100px;
 	width: 100px;
@@ -131,7 +98,7 @@ height: auto;
 	background: url('../images/page1_5.png') no-repeat;
 	z-index: 6;
 	opacity: 1;
-	/*display: none;*/
+	display: none;
 	/*background-color: red;*/
 	background-size: 100%;
 	right:60px;
@@ -181,39 +148,22 @@ height: auto;
 	font-size:  490%;
 	margin-top:0;
 	color: #04e2b6;
-	/*background-color:red;*/
 	text-align: left;
 	z-index: 1;
-	/*position: absolute;*/
 }
 
-/*#last_name{
-	font-family: 'Lato';
-	font-weight: 100;
-	font-size:  70px;
-	background-color: blue;
-	margin-top:0;
-	color: #f1d0aa;
-	text-align: left;
-	z-index: 1;
-	/*position: absolute;*/
-}
-*/
 a:link{
 	text-decoration: none;
 }
 
 .button1_page1:hover{
-	/*background-color: #aa171d;*/
 	background-color: white;
 	opacity: 0.8;
 	cursor: pointer;
 }
 
 .button1_page1:hover p{
-	/*background-color: #aa171d;*/
 	color: black;
-	/*opacity: 0.8;*/
 	cursor: pointer;
 	font-weight: 400;
 }
