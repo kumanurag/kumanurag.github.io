@@ -101,7 +101,7 @@ a{
 
 .menu_icon:hover{
 	background: url('../images/Page 2/page2_16_1.png');
-	cursor: pointer;
+	cursor: crosshair;
 }
 
 .menu_items{
