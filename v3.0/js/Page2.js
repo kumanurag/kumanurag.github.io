@@ -433,17 +433,17 @@ $(document).ready(function () {
 });
     });
 
-$(document).ready(function () {
-           $('.down').mouseenter(function(){
-          $('.down').css('display', 'none');
-          $('.down_hover').css('display', 'block');
-        });
-           $('.down_hover').mouseleave(function(){
-            $('.down_hover').css('display', 'none')
-          $('.down').css('display', 'block');
-          ;
-        });
-});
+// $(document).ready(function () {
+//            $('.down').mouseenter(function(){
+//           $('.down').css('display', 'none');
+//           $('.down_hover').css('display', 'block');
+//         });
+//            $('.down_hover').mouseleave(function(){
+//             $('.down_hover').css('display', 'none')
+//           $('.down').css('display', 'block');
+//           ;
+//         });
+// });
 
 });
 
