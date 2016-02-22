@@ -194,12 +194,12 @@ $(document).scroll(function() {
   }
 });
 
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y < 600) {
-    $('.menu_items').fadeOut();
-  } 
-});
+// $(document).scroll(function() {
+//   var y = $(this).scrollTop();
+//   if (y < 600) {
+//     $('.menu_items').fadeOut();
+//   } 
+// });
 
 $(document).ready(function () {
            $('.sld1_t1').mouseover(function(){
