@@ -395,7 +395,26 @@ position: relative;
 	min-height: 60px;
 }
 
-
+.maximize{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1;
+	width: 3vw;
+	height: 3vw;
+	/*background-color: blue;*/
+	opacity: 0.9;
+}
+.maximize1{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 1;
+	width: 3vw;
+	height: 3vw;
+	/*background-color: blue;*/
+	opacity: 0.9;
+}
 .page2_div2_work2, .page2_div2_work4{
 	position: relative;
 	width: 23vw;
