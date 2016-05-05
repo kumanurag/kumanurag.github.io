@@ -81,14 +81,14 @@ $(document).ready(function () {
          $('.page2_div2_work1_hover').css('display','block');
           $('.page2_div2_work1_hover_button').fadeIn(800);
          $('.page2_div2_work1_hover_heading').fadeIn(600);
-         $('.1maximize').css('display','none');
+         $('.maximize_1').css('display','none');
 
 });
          $('.page2_div2_work1').mouseleave(function(){
         $('.page2_div2_work1_hover').css('display','none');
         $('.page2_div2_work1_hover_heading').css('display','none');
          $('.page2_div2_work1_hover_button').css('display','none');
-         $('.1maximize').css('display','block');
+         $('.maximize_1').css('display','block');
 });
 
 
@@ -96,45 +96,52 @@ $(document).ready(function () {
          $('.page2_div2_work2_hover').css('display','block');
           $('.page2_div2_work2_hover_button').fadeIn(800);
          $('.page2_div2_work2_hover_heading').fadeIn(600);
+         $('.maximize1_1').css('display','none');
 
 });
          $('.page2_div2_work2').mouseleave(function(){
         $('.page2_div2_work2_hover').css('display','none');
         $('.page2_div2_work2_hover_heading').css('display','none');
          $('.page2_div2_work2_hover_button').css('display','none');
+         $('.maximize1_1').css('display','block');
 });
           $('.page2_div2_work3').mouseenter(function(){
          $('.page2_div2_work3_hover').css('display','block');
           $('.page2_div2_work3_hover_button').fadeIn(800);
          $('.page2_div2_work3_hover_heading').fadeIn(600);
+         $('.maximize_3').css('display','none');
 
 });
          $('.page2_div2_work3').mouseleave(function(){
         $('.page2_div2_work3_hover').css('display','none');
         $('.page2_div2_work3_hover_heading').css('display','none');
          $('.page2_div2_work3_hover_button').css('display','none');
+         $('.maximize_3').css('display','block');
 });
           $('.page2_div2_work4').mouseenter(function(){
          $('.page2_div2_work4_hover').css('display','block');
           $('.page2_div2_work4_hover_button').fadeIn(800);
          $('.page2_div2_work4_hover_heading').fadeIn(600);
-
+         $('.maximize1_2').css('display','none');
 });
          $('.page2_div2_work4').mouseleave(function(){
         $('.page2_div2_work4_hover').css('display','none');
         $('.page2_div2_work4_hover_heading').css('display','none');
          $('.page2_div2_work4_hover_button').css('display','none');
+         $('.maximize1_2').css('display','block');
 });
           $('.page2_div2_work5').mouseenter(function(){
          $('.page2_div2_work5_hover').css('display','block');
           $('.page2_div2_work5_hover_button').fadeIn(800);
          $('.page2_div2_work5_hover_heading').fadeIn(600);
+         $('.maximize_5').css('display','none');
 
 });
          $('.page2_div2_work5').mouseleave(function(){
         $('.page2_div2_work5_hover').css('display','none');
         $('.page2_div2_work5_hover_heading').css('display','none');
          $('.page2_div2_work5_hover_button').css('display','none');
+         $('.maximize_5').css('display','block');
 });
 
         $('.page2_div2_work1_hover_button').click(function(){
