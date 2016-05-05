@@ -169,8 +169,8 @@ position: relative;
 
 .aboutme_main_div_textbox_content{
 	width: auto;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
 	position: relative;
 	overflow: visible;
 	height: auto;
@@ -183,7 +183,7 @@ position: relative;
 	text-align: center;
 	color: #635f5f;
 	line-height: 27px;
-	font-size: 1.15vw;
+	font-size: 1.25vw;
 }
 
 #bobmarley_quote{
