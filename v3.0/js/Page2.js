@@ -81,12 +81,14 @@ $(document).ready(function () {
          $('.page2_div2_work1_hover').css('display','block');
           $('.page2_div2_work1_hover_button').fadeIn(800);
          $('.page2_div2_work1_hover_heading').fadeIn(600);
+         $('.1maximize').css('display','none');
 
 });
          $('.page2_div2_work1').mouseleave(function(){
         $('.page2_div2_work1_hover').css('display','none');
         $('.page2_div2_work1_hover_heading').css('display','none');
          $('.page2_div2_work1_hover_button').css('display','none');
+         $('.1maximize').css('display','block');
 });
 
 
