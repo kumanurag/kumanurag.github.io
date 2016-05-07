@@ -30,18 +30,19 @@ a{
 
 #dropdown{
 	position: fixed;	
-	width:150px; 
+	width:12vw; 
 	display: inline-block;
 	height: 300px;
 	min-width: 70px;
 	overflow: visible;
-	left: 5%;
-	top: 15%;
+	left: 3%;
+	bottom: 40%;
 	z-index: 100;
 	display: none;
+	/*background-color: blue;*/
 }
 
-.menu_icon{
+/*.menu_icon{
 	position: relative;
 	width: 65px;
 	height: 50px;
@@ -62,26 +63,29 @@ a{
 	width: auto;
 	height: auto;
 }
+*/
 
-
-.about_me, .my_work, .contact_me, .myskills{
+.about_me, .my_work, .contact_me, .myskills, .home{
 	position: relative;
 	float: left;
-	width: 80%;
+	width: 70%;
 	height: auto;
-	background-color: #096d67;
+	background-color: #ffffff;
+	border: solid 1px #042f23;
+	/*background-color: red;*/
 	margin-top: 1px;
-	box-shadow: 2px 2px 3px #949393;
+	/*box-shadow: 2px 2px 3px #949393;*/
 }
 
 .about_me:hover, .my_work:hover, .contact_me:hover, .myskills:hover{
-	background-color: #05413e;
+	background-color: #b9ffec;
 	cursor: pointer;
 }
 .menu_text{
-	color: white;
-	font-family: 'Roboto' sans-serif;
-	font-size: 1.3vw;
+	font-size: 1.4vw;
+	font-family: 'Roboto' Sans;
+	font-weight: 100;
+	color: black;
 	text-align: center;
 }
 
@@ -93,20 +97,23 @@ a{
 
 	width: 100%;
 	height:auto;
-	top: 0px;
+	/*top: 0px;*/
 	min-width: 900px;
-	overflow: visible;
+	overflow: hidden;
+	/*background-color: yellow;*/
+	/*opacity: 0.5;*/
 }
 
 #aboutme_main_div{
 	width: 74%;
 	position: relative;
 	margin-top: 0px;
-	top: 70px;
+	top: 20px;
 	margin-left: 13%;
 	min-width:700px;
 	overflow: hidden;
-	height: 1500px;
+	height: auto;
+	/*background-color: grey;*/
 }
 
 #page2_heading{	
@@ -329,26 +336,124 @@ input#img-7:checked ~ .nav-dots label#img-dot-7  {
 	background: rgba(0, 0, 0, 0.8);
 }
 
+#work1{
+	position: relative;
+	height: auto;
+	/*background-color: blue;*/
+	/*border: solid 5px violet;*/
+	/*margin-top: 120px;*/
+	position: relative;
+	width: 100%;
+	min-width: 900px;
+	height: auto;
+}
+
+.page2_div2_divmain1{
+	width: 70%;
+	position: relative;
+	height: auto;
+	margin-left: 15%;
+	margin-top:40px;
+	overflow: visible;
+	/*background-color: black;*/
+	z-index: 15;
+	display: none;
+}
+
+
+.morework1{
+	/*display: block;*/
+	height: auto;
+	width: auto;
+	text-align: center;
+	float: right;
+	margin-top: 20px;
+	border: solid 1px #1c2c28;
+	box-shadow: 1px 1px 1px #969494;
+	border-radius: 5px;
+	background-color: white; 
+	margin-right: 1vw;
+	/*display: none;*/
+}
+
+.morework{
+	/*display: block;*/
+	height: auto;
+	width: auto;
+	text-align: center;
+	float: right;
+	margin-right: 33%;
+	margin-top: 20px;
+	border: solid 1px #1c2c28;
+	box-shadow: 1px 1px 1px #969494;
+	border-radius: 5px;
+	background-color: white; 
+	/*display: none;*/
+}
+
+.morework1 p{
+	margin-right: 0.8vw;
+	margin-top: 0.8vw;
+	margin-bottom: 0.8vw;
+	margin-left: 0.8vw;
+	font-size: 1.6vw;
+	font-family: 'Roboto' Sans;
+	font-weight: 100;
+	color: #525251;;
+	
+}
+.morework:hover{
+	background-color: #3f5d55;
+	cursor: pointer;
+}
+.text_morework{
+	top: 1%;
+	/*margin-bottom: 1%;*/
+	height: auto;
+	/*width: 80%;*/
+	margin-left: 10%;
+	margin-right: 10%;
+	/*background-color: blue;*/
+	text-align: center;
+
+}
+.morework p{
+	margin-right: 0.8vw;
+	margin-top: 0.8vw;
+	margin-bottom: 0.8vw;
+	margin-left: 0.8vw;
+	font-size: 1.6vw;
+	font-family: 'Roboto' Sans;
+	font-weight: 100;
+	color: #525251;;
+	
+}
 
 #page2_div2{																				/*Divison testing for work*/
 	position: relative;
 	width: 100%;
 	min-width: 900px;
 	height: auto;
-	min-height: 900px;
+	/*min-height: 900px;*/
 	width: 100%;
-	top: 200px;
+	/*top: 60px;*/
+	/*background-color: green;*/
+	/*opacity: 0.5;*/
+	/*border-top: solid 5px grey;*/
+	/*border: solid 10px red;*/
 }
 
+
 #page2_div2_heading{	
-position: relative;																		
+	position: relative;																		
 	width: 66.66%;
 	height: auto;
-	margin-top: 50px;
+	/*margin-top: 200px;*/
 	margin-left: 16.9%;
-	top: 60px;
+	top: 80px;
 	z-index: 1;
 	border-bottom: 1px dotted #000000;
+	/*background-color: pink;*/
 }
 
 .page2_div2_heading_text{
@@ -365,19 +470,22 @@ position: relative;
 	position: relative;
 	height: auto;
 	margin-left: 15%;
-	margin-top:130px;
+	margin-top:90px;
 	overflow: visible;
+	/*background-color: green;*/
+	z-index: 15;
 }
 
 #page2_div2_box1, #page2_div2_box2, #page2_div2_box3, #page2_div2_box4, #page2_div2_box5{
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 0px;
 	width: 100%;
 	height: auto;
 	position: relative;
-	float: right;
-	display: block;
+	/*float: right;*/
+	display: inline-block;
 	border-bottom: 1px solid #e2e1dc;
+	/*background-color: red;*/
 }
 
 .page2_div2_work1, .page2_div2_work3, .page2_div2_work5{
@@ -575,57 +683,76 @@ min-width: 100px;
 
 																											/*SKILLS*/
 #skills{
-	width:100%;
-    height:70vh;
+	/*width:100%;*/
+    height:auto;
     display: block;
-    overflow:visible;
     text-align:center;
-    position: relative;
-    top: -44px;
-    z-index: 1;
-    overflow: visible;
+    /*position: relative;*/
+    	padding: 25px;	
+    /*margin-top: 10px;*/
+    /*z-index: 50;*/
+    /*overflow: visible;*/
+    /*background-color: green;*/
+    /*opacity: 0.8;*/
+    /*margin-top: 0px;*/
+    /*border: solid 10px pink;*/
+    /*border-top: solid 10px red;*/
+    /*border-bottom: solid 5px red;*/
 }
 
-.skills_maincontent{
-	position: relative;																		
-	width: 70%;
-	height: auto;
-	margin-left: 15%;
-	top: 80px;
+#skills_maincontent{
+	position: relative;
+
 	display: block;
+	text-align: center;																	
+	width: 70%;
+	/*height: auto;*/
+	margin-left: 15%;
+	margin-top: -30px;
+	/*margin-top: 40px;*/
+	/*display: block;*/
+	/*background-color: orange;*/
+	/*margin-bottom: 0px;*/
+	/*z-index: 1000;*/
+	/*border: solid 15px black;*/
+	/*margin-bottom: 0px;*/
 }
 
 .skills_heading{
-	position: relative;																		
+	/*position: relative;																		*/
 	width: 100%;
-	top: 20px;
+	margin-top: 0px;
 	height: auto;
 	border-bottom: 1px dotted #000000;
+	/*background-color: red;*/
 }
 .skills_heading_div{
 	position: relative;
 	width: 30%;
 	height: auto;
-	margin-bottom: 0px;
+	top: 0px;
+	/*margin-bottom: 0px;*/
 	margin-left: 35%;
+	/*background-color: blue;*/
 }
 
 .skills_languages_div{
 	position: relative;
-	display: block;
-	float: left;
+	/*display: block;*/
+	/*float: left;*/
 	width: 80%;
 	height: auto;
 	margin-top: 60px;
 	margin-bottom: 0px;
 	margin-left: 10%;
+	/*background-color: blue; */
 }
 
 .skills_languages_div_heading{
 	position: relative;																		
 	width: auto;
 	height: auto;
-	top: 10px;
+	top: 0px;
 	margin-left: 0.5%;
 }
 
@@ -641,13 +768,15 @@ min-width: 100px;
 .skills_languages_div1{
 	position: relative;
 	width: 40%;
-	display: block;
-	float: left;
+	/*display: block;*/
+	display: inline-block;
+	/*float: left;*/
 	height: auto;
 	margin-left: 4%;
-	margin-right: 2%;
-	margin-top: 0px;
+	/*margin-right: 2%;*/
+	/*margin-top: 0px;*/
 	overflow: visible;
+	/*background-color: green;*/
 }
 
 .skills_text{
@@ -672,22 +801,25 @@ min-width: 100px;
 	position: relative;
 	width: 40%;
 	height: auto;
-	margin-left: 0px;
-	display: block;
-	float: left;
-	margin-top: 0px;
+	/*margin-left: 0px;*/
+	display: inline-block;
+	/*float: left;*/
+	/*margin-top: 0px;*/
 	margin-left: 10%;
+	/*margin-right: 0px;*/
+	/*background-color: green;*/
 }
 
 .skills_tools_div{
 	position: relative;
-	display: block;
-	float: left;
+	/*display: block;*/
+	/*float: left;*/
 	width: 80%;
 	margin-top: 40px;
 	height: auto;
 	margin-bottom: 0px;
 	margin-left: 10%;
+	/*background-color: blue;*/
 }
 
 .skills_tools_div_heading{
@@ -701,8 +833,8 @@ min-width: 100px;
 .skills_tools_div1{
 position: relative;
 	width: 40%;
-	display: block;
-	float: left;
+	display: inline-block;
+	/*float: left;*/
 	height: 80%;
 	margin-left: 4%;
 	margin-right: 2%;
@@ -714,8 +846,8 @@ position: relative;
 	width: 40%;
 	height: 80%;
 	margin-left: 0px;
-	display: block;
-	float: left;
+	display: inline-block;
+	/*float: left;*/
 	margin-top: 0px;
 	margin-left: 10%;
 }
@@ -724,7 +856,7 @@ position: relative;
 	position: relative;
 	width: 100%;
 	height:30px;
-	display: block;
+	display: inline-block;
 	margin-top: 2px;
 	overflow: visible;
 }
@@ -739,10 +871,10 @@ position: relative;
 	position: relative;
 	width: 100%;
 	height:30px;
-	display: block;
+	display: inline-block;
 	float: left;
 	margin-left: 0px;
-	margin-top: 2px;
+	margin-top: 4px;
 	overflow: visible;
 }
 
@@ -750,7 +882,7 @@ position: relative;
 .sld1t1_text, .sld1t2_text, .sld1t3_text, .sld1t4_text, .sld1t5_text{
 	position: relative;
 	width: 45%;
-	display: block;
+	display: inline-block;
 	height: auto;
 	max-height: 30px;
 	margin-left: 3%;
@@ -761,7 +893,7 @@ position: relative;
 .std1t1_text, .std1t2_text, .std1t3_text, .std1t4_text, .std1t5_text{
 	position: relative;
 	width: 45%;
-	display: block;
+	display: inline-block;
 	height: auto;
 	float: left;
 	margin-left: 3%;
@@ -772,7 +904,7 @@ position: relative;
 	position: absolute;
 	width: 45%;
 	height:30px;
-	display: block;
+	display: inline-block;
 	float: right;
 	margin-top: 0px;
 	right: 0px;
@@ -794,7 +926,7 @@ position: relative;
 .sld2t1_text, .sld2t2_text, .sld2t3_text, .sld2t4_text, .sld2t5_text{
 	position: relative;
 	width: 45%;
-	display: block;
+	display: inline-block;
 	margin-left: 3%;
 	height: auto;
 	max-height: 30px;
@@ -805,7 +937,7 @@ position: relative;
 	position: absolute;
 	width: 45%;
 	height:30px;
-	display: block;
+	display: inline-block;
 	float: right;
 	margin-top: 0px;
 	right: 0px;
@@ -815,7 +947,7 @@ position: relative;
 .std1t1_text, .std1t2_text, .std1t3_text, .std1t4_text, .std1t5_text{
 	position: relative;
 	width: 45%;
-	display: block;
+	display: inline-block;
 	height: auto;
 	margin-left: 3%;
 	max-height: 30px;
@@ -827,7 +959,7 @@ position: relative;
 	right: 0px;
 	width: 45%;
 	height:30px;
-	display: block;
+	display: inline-block;
 	float: right;
 	margin-top: 2px;
 }
@@ -835,7 +967,7 @@ position: relative;
 .std2t1_text, .std2t2_text, .std2t3_text, .std2t4_text, .std2t5_text{
 	position: relative;
 	width: 45%;
-	display: block;
+	display: inline-block;
 	height: auto;
 	margin-left: 3%;
 	max-height: 30px;
@@ -847,20 +979,25 @@ position: relative;
 	position: absolute;
 	right: 0px;
 	width: 45%;
-	display: block;
+	display: inline-block;
 	height: 30px;
 	float: right;
 	margin-top: 0px;
 }
 
+
+
 #page2_div3{
+	position: relative;
     width:100%;
-    height:auto;
-    display: block;
-    overflow:hidden;
-    text-align:center;
-    position: relative;
-  	top: 50px;
+    height:90vh;
+    display: inline-block;
+    /*overflow:hidden;*/
+    /*text-align:center;*/
+  	margin-top: 200px;
+  	/*margin-top: 0px;*/
+  	/*background-color: yellow;*/
+  	/*border: solid 5px blue;*/
 }
 
 a{
@@ -870,19 +1007,22 @@ a{
 .page2_div3_maincontent{
 	position: relative;																		
 	width: 70%;
-	height: auto;
+	height: 80vh;
 	margin-left: 15%;
-	top: 10px;
+	/*margin-top: 0px;*/
 	display: block;
+	/*background-color: blue;*/
+	z-index: 10;
 }
 
 .page2_div3_heading{
 	position: relative;																		
 	width: 100%;
-	top: 3vh;
+	/*top: 3vh;*/
 	height: auto;
 	position: relative;
 	border-bottom: 1px dotted #000000;
+	/*background-color: red;*/
 }
 
 .page2_div3_heading_div{
@@ -898,8 +1038,9 @@ a{
 	width: 50%;
 	margin-left: 25%;
 	height: 60vh;
-	top: 10vh;
-	display: block;
+	margin-top: 8vh;
+	/*display: block;*/
+	/*background-color: green;*/
 }
 
 .page2_div3_mail{
@@ -919,17 +1060,18 @@ a{
 	margin-left: auto;
 	margin-right: auto;
 	height: 150px;
-	margin-top:3.5vh;
+	margin-top:5vh;
 }
 
 .page2_div3_social{
 	position: relative;
 	text-align:center;
-	width: 260px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 25vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
 	height: 80px;
-	margin-top:3.5vh; 
+	margin-top:4vh; 
+	/*background-color: blue;*/
 }
 
 .page2_div3_mail_image{
@@ -978,10 +1120,11 @@ a{
 
 .facebook {
     background: url('../images/Page 2/fb1.png');
-    width:80px;
-    height:80px;
+    width:5vw;
+    height:5vw;
     display: block;
     float: left;
+    margin-left: 4vw;
     margin-right:10px; 
     background-size: 100%;
     background-color: #3b5998;
@@ -996,8 +1139,8 @@ a{
 
 .gplus {
     background: url('../images/Page 2/gplus1.png');
-    width:80px;
-    height:80px;
+    width:5vw;
+    height:5vw;
     display: block;
     float: left;background-size: 100%;
     margin-right:10px; 
@@ -1012,8 +1155,10 @@ a{
 
 .linkedin {
     background: url('../images/Page 2/linked2.png');
-    width:80px;
-    height:80px;
+   /* width:80px;
+    height:80px;*/
+    width:5vw;
+    height:5vw;
     display: block;
     float: left;
     background-size: 100%;
@@ -1027,12 +1172,14 @@ a{
 	background-size: 100%;
 }
 .footer{
+	position: relative;
     background-color:#f2f2f2;
+    display: inline-block;
+    /*margin-bottom: 0vh;*/
     /*bottom:0px;*/
     width:100%;
-    height:55px;
-    position: relative;
-    margin-top: 18vh;
+    height:auto;
+    /*margin-top: 18vh;*/
     -webkit-box-shadow: 0px -4px 7px #b2b2b2b;
     -moz-box-shadow: 0px -4px 7px #b2b2b2;
     box-shadow: 0px -4px 7px #b2b2b2;
@@ -1042,8 +1189,9 @@ a{
     width:50%;
     margin:0px auto;
     text-align:center;
-    margin-top:0px;
+    /*margin-top:0px;*/
     opacity: 0.8;
+    /*margin-bottom: 0px;*/
 }
 .copyright{
     font-size:16px;

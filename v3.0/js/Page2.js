@@ -24,6 +24,106 @@ $("#up").click(function() {
 
 $(document).ready(function () {
 
+      $("#page2_div2").mouseover(function () {
+            $(".my_work").css('background-color', '#201d04');
+             $(".my_work p").css('color', 'white');
+        });
+
+        $("#page2_div2").mouseout(function () {
+            $(".my_work").css('background-color', 'white');
+             $(".my_work p").css('color', '#525251');
+        });
+
+         $("#work1").mouseover(function () {
+            $(".my_work").css('background-color', '#201d04');
+             $(".my_work p").css('color', 'white');
+        });
+
+        $("#work1").mouseout(function () {
+            $(".my_work").css('background-color', 'white');
+             $(".my_work p").css('color', '#525251');
+        });
+
+        $("#page2_div1").mouseover(function () {
+            $(".about_me").css('background-color', '#201d04');
+             $(".about_me p").css('color', 'white');
+        });
+
+        $("#page2_div1").mouseout(function () {
+            $(".about_me").css('background-color', 'white');
+             $(".about_me p").css('color', '#525251');
+        });
+
+        $("#skills").mouseover(function () {
+            $(".myskills").css('background-color', '#201d04');
+             $(".myskills p").css('color', 'white');
+        });
+
+        $("#skills").mouseout(function () {
+            $(".myskills").css('background-color', 'white');
+             $(".myskills p").css('color', '#525251');
+        });
+      $("#page2_div3").mouseover(function () {
+            $(".contact_me").css('background-color', '#201d04');
+             $(".contact_me p").css('color', 'white');
+        });
+
+        $("#page2_div3").mouseout(function () {
+            $(".contact_me").css('background-color', 'white');
+             $(".contact_me p").css('color', '#525251');
+        });
+
+
+      $(".myskills").mouseover(function () {
+            $(".myskills").css('background-color', '#201d04');
+             $(".myskills p").css('color', 'white');
+        });
+
+        $(".myskills").mouseout(function () {
+            $(".myskills").css('background-color', 'white');
+             $(".myskills p").css('color', '#525251');
+        });
+
+      $(".my_work").mouseover(function () {
+            $(".my_work").css('background-color', '#201d04');
+             $(".my_work p").css('color', 'white');
+        });
+
+        $(".my_work").mouseout(function () {
+            $(".my_work").css('background-color', 'white');
+             $(".my_work p").css('color', '#525251');
+        });
+
+      $(".contact_me").mouseover(function () {
+            $(".contact_me").css('background-color', '#201d04');
+             $(".contact_me p").css('color', 'white');
+        });
+
+        $(".contact_me").mouseout(function () {
+            $(".contact_me").css('background-color', 'white');
+             $(".contact_me p").css('color', '#525251');
+        });
+      $(".morework").mouseover(function () {
+            $(".morework").css('background-color', '#201d04');
+             $(".morework p").css('color', 'white');
+        });
+
+        $(".morework").mouseout(function () {
+            $(".morework").css('background-color', 'white');
+             $(".morework p").css('color', '#525251');
+        });
+
+        $(".morework1").mouseover(function () {
+            $(".morework1").css('background-color', '#201d04');
+             $(".morework1 p").css('color', 'white');
+        });
+
+        $(".morework1").mouseout(function () {
+            $(".morework1").css('background-color', 'white');
+             $(".morework1 p").css('color', '#525251');
+        });
+
+
         $(".page2_div2_work1_hover_button").mouseover(function () {
             $(".page2_div2_work1_hover_button").css('background-color', '#201d04');
              $(".page2_div2_work1_hover_button_text").css('color', 'white');
@@ -169,12 +269,18 @@ $(document).ready(function () {
            $('.sld1_t1').hover(function(){
         $('.sld1t1_rating').css('display', 'none');
 });
-
+      
     });
 
+// $(document).ready(function() {
+//    $('#dropdown').click(function(){
+//         $( ".menu_items" ).slideToggle();
+//   });
+// });
+
 $(document).ready(function() {
-   $('#dropdown').click(function(){
-        $( ".menu_items" ).slideToggle();
+   $('.morework').click(function(){
+        $( ".page2_div2_divmain1" ).slideDown();
   });
 });
 
@@ -196,7 +302,7 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 600) {
+  if (y > 800) {
     $('#dropdown').fadeIn();
   } else {
     $('#dropdown').fadeOut();
@@ -211,6 +317,7 @@ $(document).scroll(function() {
 // });
 
 $(document).ready(function () {
+
            $('.sld1_t1').mouseover(function(){
           $('.sld1t1_rating').css('display', 'none');
            $('.sld1t1_text1').css('display', 'block');
