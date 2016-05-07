@@ -94,6 +94,15 @@ $(document).ready(function () {
              $(".my_work p").css('color', '#525251');
         });
 
+        $(".home").mouseover(function () {
+            $(".home").css('background-color', '#201d04');
+             $(".home p").css('color', 'white');
+        });
+
+        $(".home").mouseout(function () {
+            $(".home").css('background-color', 'white');
+             $(".home p").css('color', '#525251');
+        });
       $(".contact_me").mouseover(function () {
             $(".contact_me").css('background-color', '#201d04');
              $(".contact_me p").css('color', 'white');

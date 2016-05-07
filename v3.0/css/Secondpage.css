@@ -77,7 +77,7 @@ a{
 	/*box-shadow: 2px 2px 3px #949393;*/
 }
 
-.about_me:hover, .my_work:hover, .contact_me:hover, .myskills:hover{
+.about_me:hover, .my_work:hover, .contact_me:hover, .myskills:hover, .home:hover{
 	background-color: #b9ffec;
 	cursor: pointer;
 }
