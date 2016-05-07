@@ -103,6 +103,16 @@ $(document).ready(function () {
             $(".home").css('background-color', 'white');
              $(".home p").css('color', '#525251');
         });
+
+        $(".about_me").mouseover(function () {
+            $(".about_me").css('background-color', '#201d04');
+             $(".about_me p").css('color', 'white');
+        });
+
+        $(".about_me").mouseout(function () {
+            $(".about_me").css('background-color', 'white');
+             $(".about_me p").css('color', '#525251');
+        });
       $(".contact_me").mouseover(function () {
             $(".contact_me").css('background-color', '#201d04');
              $(".contact_me p").css('color', 'white');
