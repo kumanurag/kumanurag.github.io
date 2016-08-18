@@ -312,7 +312,7 @@ $(document).ready(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 800) {
+  if (y > 600) {
     $('#up').fadeIn();
   } else {
     $('#up').fadeOut();
@@ -321,7 +321,7 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 800) {
+  if (y > 600) {
     $('#dropdown').fadeIn();
   } else {
     $('#dropdown').fadeOut();
